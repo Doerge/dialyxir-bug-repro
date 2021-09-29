@@ -1,20 +1,11 @@
-# DialyxirExample
+# Include and call Erlang Modules
 
-To start your Phoenix server:
+Bug repro for this ticket:
+https://github.com/jeremyjh/dialyxir/issues/435
 
-  * Install dependencies with `mix deps.get`
-  * Create and migrate your database with `mix ecto.setup`
-  * Install Node.js dependencies with `npm install` inside the `assets` directory
-  * Start Phoenix endpoint with `mix phx.server`
+```
+$ asdf current
+elixir          1.12.2-otp-24   /Users/aske/.tool-versions
+erlang          24.0.3          /Users/aske/.tool-versions
+```
 
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
-
-Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
-
-## Learn more
-
-  * Official website: https://www.phoenixframework.org/
-  * Guides: https://hexdocs.pm/phoenix/overview.html
-  * Docs: https://hexdocs.pm/phoenix
-  * Forum: https://elixirforum.com/c/phoenix-forum
-  * Source: https://github.com/phoenixframework/phoenix
